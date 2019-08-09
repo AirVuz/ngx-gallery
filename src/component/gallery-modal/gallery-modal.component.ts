@@ -24,6 +24,7 @@ export class GalleryModalComponent implements OnDestroy {
   @Input() closeButton = true;
 
   /** Activate keyboard for navigation */
+  /*
   @HostListener('window:keydown', ['$event'])
   keyboardInput(event: KeyboardEvent) {
     switch (event.keyCode) {
@@ -43,6 +44,7 @@ export class GalleryModalComponent implements OnDestroy {
         return;
     }
   }
+  */
 
   constructor(public gallery: GalleryService) {
   }
